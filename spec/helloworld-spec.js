@@ -36,7 +36,9 @@ describe("Hello World", function () {
                 
                     //Matcher function should return an object containing 'compare' method
                     
-                    return { //return object of matcher function
+                    return { 
+                        
+                        //return object of matcher function
                         compare : function(actual, expected) {
                         
                             //'compare' function should return an object containing 'pass'
